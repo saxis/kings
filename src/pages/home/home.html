@@ -1,14 +1,22 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Kings
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content fullscreen class="buttonPage">
+<div class="holder">
+  <h1>Select How you want to authenticate!</h1>
+  <div class="loginButtonHolder">
+    <button ion-button color="light" (click)="login()">Email & Password</button>
+    <button ion-button color="google">Google</button>
+    <button ion-button color="twitter">Twitter</button>
+    <button ion-button color="facebook">Facebook</button>
+    <button ion-button color="github" (click)="githubLogin()">Github</button>
+    <div class="create">Dont have an account?</div>
+    <p class="btn create" (click)="signupUsers()">Create One</p>
+  </div>
+</div>
 </ion-content>

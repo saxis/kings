@@ -38,7 +38,20 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  github:     #888,
+  google:     (
+    base: #db3236,
+    contrast: white
+  ),
+  twitter:     (
+    base: #55acee,
+    contrast: white
+  ),
+  facebook:     (
+    base: #3b5998,
+    contrast: white
+  )
 );
 
 
